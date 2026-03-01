@@ -1,14 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SiteNav from "@/components/SiteNav";
+import HeroSection from "@/components/HeroSection";
+import WhoWeAre from "@/components/WhoWeAre";
+import PracticeSection from "@/components/PracticeSection";
+import SeasonRaces from "@/components/SeasonRaces";
+import JoinSection from "@/components/JoinSection";
+import Volunteering from "@/components/Volunteering";
+import GritSection from "@/components/GritSection";
+import GearSection from "@/components/GearSection";
+import FaqSection from "@/components/FaqSection";
+import ContactSection from "@/components/ContactSection";
+import SiteFooter from "@/components/SiteFooter";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <>
+    <SiteNav />
+    <main>
+      <HeroSection />
+      <WhoWeAre />
+      <PracticeSection />
+      <SeasonRaces />
+      <JoinSection />
+      <Volunteering />
+      <GritSection />
+      <GearSection />
+      <FaqSection />
+      <ContactSection />
+    </main>
+    <SiteFooter />
+  </>
+);
 
 export default Index;
