@@ -5,6 +5,7 @@ const GEAR = [
   "Glasses / eye protection",
   "Appropriate riding shoes (closed-toe)",
   "At least one team jersey",
+  "Bike and helmet lights",
 ];
 
 const GearSection = () => (
