@@ -23,7 +23,9 @@ const JoinSection = () => (
           </div>
           <div className="flex flex-col items-start justify-center gap-4">
             <a
-              href="mailto:renosparksmtb@gmail.com?subject=We%20want%20to%20try%20the%20team!"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfcGQ5MNu8trNOgcREDMRtdNDmN-yNkEZa1_ievRYlSNOeP8w/viewform?usp=sharing&ouid=118424864578261391050"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground shadow-lg transition-transform hover:scale-105"
             >
               Try the Team
