@@ -1,4 +1,5 @@
 import heroImg from "@/assets/hero-mtb.jpg";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => (
   <section
@@ -11,18 +12,19 @@ const HeroSection = () => (
       className="absolute inset-0 h-full w-full object-cover"
       loading="eager"
     />
-    <div className="absolute inset-0 bg-primary/70" />
+    <div className="absolute inset-0 bg-primary/75" />
     <div className="relative z-10 mx-auto max-w-3xl px-4 text-center">
+      <img src={logo} alt="Reno-Sparks MTB logo" className="mx-auto mb-6 h-28 sm:h-36 animate-fade-in-up" />
       <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-primary-foreground sm:text-5xl md:text-6xl animate-fade-in-up">
         Join the Reno‑Sparks Composite MTB Team
       </h1>
-      <p className="mx-auto mb-8 max-w-xl text-lg text-primary-foreground/85 sm:text-xl" style={{ animationDelay: "0.15s" }}>
+      <p className="mx-auto mb-8 max-w-xl text-lg text-primary-foreground/85 sm:text-xl">
         A co‑ed youth mountain bike team for grades 5–12 in the Reno‑Sparks area
       </p>
-      <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center" style={{ animationDelay: "0.3s" }}>
+      <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
         <a
           href="#join"
-          className="inline-flex rounded-lg bg-accent px-8 py-3.5 text-base font-bold text-accent-foreground shadow-lg transition-transform hover:scale-105"
+          className="inline-flex rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground shadow-lg transition-transform hover:scale-105"
         >
           Try the Team
         </a>
@@ -34,7 +36,6 @@ const HeroSection = () => (
         </a>
       </div>
     </div>
-    {/* Decorative bottom wave */}
     <svg className="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
       <path d="M0 60L1440 60L1440 20C1200 50 960 0 720 30C480 60 240 10 0 40L0 60Z" fill="hsl(40 20% 97%)" />
     </svg>

@@ -9,18 +9,17 @@ const CHECKLIST = [
 ];
 
 const PracticeSection = () => (
-  <section id="practice" className="section-padding bg-navy-light">
+  <section id="practice" className="section-padding bg-blue-light">
     <div className="container-narrow">
       <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Practice – When &amp; Where</h2>
-
       <div className="grid gap-8 md:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-secondary">Preseason</h3>
+            <h3 className="mb-3 text-lg font-semibold text-primary">Preseason</h3>
             <p className="text-foreground/85">4–6 preseason practices held in May and June. Dates and times TBD — stay tuned!</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-secondary">Regular Season</h3>
+            <h3 className="mb-3 text-lg font-semibold text-primary">Regular Season</h3>
             <p className="mb-2 text-foreground/85">Season officially begins <strong>July 1</strong>.</p>
             <ul className="space-y-1 text-foreground/85">
               <li>📅 <strong>Tuesdays &amp; Thursdays:</strong> 5:30 pm – 7:30 pm</li>
@@ -31,10 +30,9 @@ const PracticeSection = () => (
             </p>
           </div>
         </div>
-
         <div className="space-y-6">
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-secondary">What to Expect at Practice</h3>
+            <h3 className="mb-3 text-lg font-semibold text-primary">What to Expect at Practice</h3>
             <ul className="space-y-2 text-foreground/85">
               <li>✅ Riders are grouped by ability — no one gets left behind</li>
               <li>✅ Mix of skills drills and trail riding</li>
@@ -42,13 +40,12 @@ const PracticeSection = () => (
               <li>✅ Experienced coaches and ride leaders at every session</li>
             </ul>
           </div>
-
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-secondary">Practice Ready Checklist</h3>
+            <h3 className="mb-3 text-lg font-semibold text-primary">Practice Ready Checklist</h3>
             <ul className="space-y-1.5 text-foreground/85">
               {CHECKLIST.map((item) => (
                 <li key={item} className="flex items-start gap-2">
-                  <span className="mt-0.5 text-accent">✓</span>
+                  <span className="mt-0.5 text-secondary font-bold">✓</span>
                   <span>{item}</span>
                 </li>
               ))}

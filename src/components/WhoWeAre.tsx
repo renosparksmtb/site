@@ -32,12 +32,12 @@ const WhoWeAre = () => (
           </p>
         </div>
         <div>
-          <h3 className="mb-4 text-xl font-semibold text-secondary">NICA Core Values</h3>
+          <h3 className="mb-4 text-xl font-semibold text-primary">NICA Core Values</h3>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
             {CORE_VALUES.map((v) => (
               <div
                 key={v.label}
-                className="flex flex-col items-center gap-2 rounded-xl bg-forest-light p-5 text-center shadow-sm"
+                className="flex flex-col items-center gap-2 rounded-xl bg-blue-light p-5 text-center shadow-sm"
               >
                 <span className="text-3xl">{v.icon}</span>
                 <span className="text-sm font-semibold text-primary">{v.label}</span>

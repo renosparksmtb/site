@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.png";
 
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
@@ -33,11 +34,10 @@ const SiteNav = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-card/95 backdrop-blur-sm">
-      <nav className="container-narrow flex items-center justify-between px-4 py-3">
-        <a href="#home" className="text-lg font-bold text-primary">
-          Reno‑Sparks MTB
+      <nav className="container-narrow flex items-center justify-between px-4 py-2">
+        <a href="#home" className="flex items-center gap-2">
+          <img src={logo} alt="Reno-Sparks MTB logo" className="h-10" />
         </a>
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="flex flex-col gap-1 lg:hidden"
@@ -47,7 +47,6 @@ const SiteNav = () => {
           <span className={`block h-0.5 w-6 bg-foreground transition-opacity ${open ? "opacity-0" : ""}`} />
           <span className={`block h-0.5 w-6 bg-foreground transition-transform ${open ? "-translate-y-1.5 -rotate-45" : ""}`} />
         </button>
-        {/* Desktop */}
         <ul className="hidden gap-1 lg:flex">
           {NAV_ITEMS.map((n) => (
             <li key={n.href}>
@@ -55,7 +54,7 @@ const SiteNav = () => {
                 href={n.href}
                 className={`rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors ${
                   active === n.href
-                    ? "bg-accent text-accent-foreground"
+                    ? "bg-secondary text-secondary-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
@@ -65,7 +64,6 @@ const SiteNav = () => {
           ))}
         </ul>
       </nav>
-      {/* Mobile menu */}
       {open && (
         <div className="border-t border-border bg-card lg:hidden">
           <ul className="container-narrow flex flex-col gap-1 px-4 py-3">
@@ -76,7 +74,7 @@ const SiteNav = () => {
                   onClick={() => setOpen(false)}
                   className={`block rounded-md px-3 py-2 text-sm font-medium transition-colors ${
                     active === n.href
-                      ? "bg-accent text-accent-foreground"
+                      ? "bg-secondary text-secondary-foreground"
                       : "text-muted-foreground hover:text-foreground"
                   }`}
                 >

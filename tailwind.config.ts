@@ -45,18 +45,8 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        forest: {
-          DEFAULT: "hsl(var(--forest))",
-          light: "hsl(var(--forest-light))",
-        },
-        navy: {
-          light: "hsl(var(--navy-light))",
-        },
-        trail: {
-          dust: "hsl(var(--trail-dust))",
-          earth: "hsl(var(--trail-earth))",
-        },
-        "orange-glow": "hsl(var(--orange-glow))",
+        "blue-light": "hsl(var(--blue-light))",
+        "gold-light": "hsl(var(--gold-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

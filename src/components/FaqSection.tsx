@@ -31,7 +31,7 @@ const FaqSection = () => {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="section-padding bg-navy-light">
+    <section id="faq" className="section-padding bg-blue-light">
       <div className="container-narrow">
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Frequently Asked Questions</h2>
         <div className="space-y-3 max-w-3xl">
