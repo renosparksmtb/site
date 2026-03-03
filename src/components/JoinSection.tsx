@@ -14,6 +14,17 @@ const JoinSection = () => (
               This is a fun, pressure‑free way to meet coaches and athletes and see if the Reno‑Sparks
               Composite MTB Team is the right fit for your family.
             </p>
+            <p>
+              New riders must complete NICA's Agreement to Participate and Release of Liability before attending any team events.
+            </p>
+            <a
+              href="https://nationalmtb.org/agreement-to-participate-and-release-of-liability-form"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+            >
+              Complete NICA Participation Waiver
+            </a>
             <h3 className="pt-2 text-lg font-semibold text-primary">How to Get Started</h3>
             <ol className="list-decimal space-y-2 pl-5 text-foreground/85">
               <li>Fill out the online waiver form (link below)</li>
@@ -56,6 +67,24 @@ const JoinSection = () => (
           Registration is completed through the <strong>NICA Pit Zone</strong>. Riders must be fully
           registered to continue beyond the 3‑ride waiver.
         </p>
+        <ul className="mt-4 space-y-2 text-foreground/85">
+          <li className="flex items-start gap-2">
+            <span className="mt-0.5 text-secondary font-bold">•</span>
+            <span>If you need a mountain bike, you may be able to loan one for the season from the{" "}
+              <a href="https://nevadanorthmtb.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+                Nevada North Interscholastic Cycling League (NNICL)
+              </a>.
+            </span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="mt-0.5 text-secondary font-bold">•</span>
+            <span>Scholarships to help cover registration fees are available through{" "}
+              <a href="https://nevadanorthmtb.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+                NNICL
+              </a>.
+            </span>
+          </li>
+        </ul>
         <div className="mt-6 flex flex-wrap gap-4">
           <a
             href="https://pitzone.nationalmtb.org/"

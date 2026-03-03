@@ -4,8 +4,8 @@ import logo from "@/assets/logo.png";
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
   { label: "Who We Are", href: "#who" },
-  { label: "Practice", href: "#practice" },
-  { label: "Season & Races", href: "#races" },
+  { label: "Practice in Reno & Sparks", href: "#practice" },
+  { label: "Youth MTB Racing", href: "#races" },
   { label: "Join", href: "#join" },
   { label: "Volunteering", href: "#volunteering" },
   { label: "GRiT", href: "#grit" },

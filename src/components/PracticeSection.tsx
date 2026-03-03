@@ -28,6 +28,9 @@ const PracticeSection = () => (
             <p className="mt-3 text-sm text-muted-foreground">
               Locations vary throughout the Reno / Sparks area. Practice locations may change based on trail conditions, weather, and daylight. Weekly updates are shared with registered families.
             </p>
+            <p className="mt-3 text-sm text-muted-foreground">
+              Weekday practices are usually held in either the Peavine area or the Galena area, with the goal of making practices accessible for families. Weekend practices may be held in the Carson City, Mt. Rose / Incline Village, and Truckee areas.
+            </p>
           </div>
         </div>
         <div className="space-y-6">

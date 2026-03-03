@@ -27,11 +27,28 @@ const FAQS = [
   },
 ];
 
+const FAQ_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQS.map((faq) => ({
+    "@type": "Question",
+    name: faq.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.a,
+    },
+  })),
+};
+
 const FaqSection = () => {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
     <section id="faq" className="section-padding bg-blue-light">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSONLD) }}
+      />
       <div className="container-narrow">
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Frequently Asked Questions</h2>
         <div className="space-y-3 max-w-3xl">
