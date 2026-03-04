@@ -5,8 +5,8 @@ const CHECKLIST = [
   "Snack for longer rides",
   "Sunscreen & sunglasses",
   "Closed-toe shoes (no sandals)",
-  "Positive attitude!",
   "Front facing headlight (1100 lumens min)",
+  "Positive attitude!",
 ];
 
 const PracticeSection = () => (
