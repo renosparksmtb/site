@@ -1,3 +1,5 @@
+import { ExternalLink } from "lucide-react";
+
 const GEAR = [
   "Mountain bike in good working condition",
   "Properly fitting helmet",
@@ -5,7 +7,8 @@ const GEAR = [
   "Glasses / eye protection",
   "Appropriate riding shoes (closed-toe)",
   "At least one team jersey",
-  "Bike and helmet lights",
+  "Front facing light (1100 lumens min)",
+  "Bike tube / repair kit",
 ];
 
 const GearSection = () => (
@@ -35,11 +38,19 @@ const GearSection = () => (
           <p className="mb-4 text-sm text-muted-foreground">Both shops offer NICA team discounts!</p>
           <div className="space-y-4">
             <div>
-              <p className="font-semibold text-foreground">Sierra Bike Supply</p>
+              <p className="font-semibold text-foreground">
+                <a href="https://www.sierrabikesupply.com/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary inline-flex items-center gap-1.5">
+                  Sierra Bike Supply <ExternalLink className="h-3.5 w-3.5" />
+                </a>
+              </p>
               <p className="text-sm text-muted-foreground">Contact: Lane Swall</p>
             </div>
             <div>
-              <p className="font-semibold text-foreground">Trek Bike Store</p>
+              <p className="font-semibold text-foreground">
+                <a href="https://www.trekbikes.com/us/en_US/retail/reno/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary inline-flex items-center gap-1.5">
+                  Trek Bike Store <ExternalLink className="h-3.5 w-3.5" />
+                </a>
+              </p>
               <p className="text-sm text-muted-foreground">Contact: Jeremy Call</p>
             </div>
           </div>
