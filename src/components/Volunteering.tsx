@@ -1,8 +1,12 @@
-const WAYS = [
-  { icon: "🚲", text: "Practice support & ride assistance" },
-  { icon: "🍕", text: "Food and logistics coordination" },
-  { icon: "🏁", text: "Race-day volunteering (parking, course marshals)" },
-  { icon: "🎓", text: "Become a coach — no experience required, just enthusiasm!" },
+import { faBicycle, faUtensils, faFlagCheckered, faChalkboardUser } from "@fortawesome/free-solid-svg-icons";
+import Icon from "@/components/Icon";
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+
+const WAYS: { icon: IconDefinition; text: string }[] = [
+  { icon: faBicycle, text: "Practice support & ride assistance" },
+  { icon: faUtensils, text: "Food and logistics coordination" },
+  { icon: faFlagCheckered, text: "Race-day volunteering (parking, course marshals)" },
+  { icon: faChalkboardUser, text: "Become a coach — no experience required, just enthusiasm!" },
 ];
 
 const Volunteering = () => (
@@ -19,7 +23,7 @@ const Volunteering = () => (
             key={w.text}
             className="flex items-start gap-4 rounded-xl border border-border bg-card p-5 shadow-sm"
           >
-            <span className="text-2xl">{w.icon}</span>
+            <Icon icon={w.icon} className="text-2xl text-primary" />
             <span className="text-foreground/90">{w.text}</span>
           </div>
         ))}
