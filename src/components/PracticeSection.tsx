@@ -1,3 +1,6 @@
+import { faUsers, faGears, faFaceSmile, faPersonChalkboard } from "@fortawesome/free-solid-svg-icons";
+import Icon from "@/components/Icon";
+
 const CHECKLIST = [
   "Properly fitting helmet (mandatory)",
   "Mountain bike in good working order",
@@ -38,10 +41,10 @@ const PracticeSection = () => (
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
             <h3 className="mb-3 text-lg font-semibold text-primary">What to Expect at Practice</h3>
             <ul className="space-y-2 text-foreground/85">
-              <li>✅ Riders are grouped by ability — no one gets left behind</li>
-              <li>✅ Mix of skills drills and trail riding</li>
-              <li>✅ Fun-first culture — we cheer, we encourage, we ride together</li>
-              <li>✅ Experienced coaches and ride leaders at every session</li>
+              <li className="flex items-center gap-2"><Icon icon={faUsers} className="w-4 text-primary" /> Riders are grouped by ability — no one gets left behind</li>
+              <li className="flex items-center gap-2"><Icon icon={faGears} className="w-4 text-primary" /> Mix of skills drills and trail riding</li>
+              <li className="flex items-center gap-2"><Icon icon={faFaceSmile} className="w-4 text-primary" /> Fun-first culture — we cheer, we encourage, we ride together</li>
+              <li className="flex items-center gap-2"><Icon icon={faPersonChalkboard} className="w-4 text-primary" /> Experienced coaches and ride leaders at every session</li>
             </ul>
           </div>
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
