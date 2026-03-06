@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import Icon from "@/components/Icon";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-const FAQS = [
+const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
   {
     q: "Who can join?",
     a: "Any student in grades 5–12 in the Reno‑Sparks area, regardless of experience level. All genders welcome!",
@@ -29,7 +29,53 @@ const FAQS = [
   },
   {
     q: "Will my kid like it — and how much should I expect to pay for a beginner bike?",
-    a: "This is a very common and totally valid question. Many families don't want to invest heavily in gear before knowing if their child will enjoy mountain biking. That's exactly why our program is fun‑first, inclusive, and low‑pressure — many kids discover they love riding once they experience practices with teammates and supportive coaches.\n\nHere's a simple guide to beginner bike options and typical costs:\n\nLOW‑COST (used or refurbished): about $150–$500 (most families land around $300–$400)\n• Reno Bike Project — a local nonprofit community bike shop that refurbishes donated bikes and sells used bikes at affordable price points.\n• Facebook Marketplace — a great place to find local used bikes at a wide range of prices.\nTip: If buying used, we recommend a quick safety check at a bike shop before the first practice.\n\nMID‑RANGE (new entry‑level hardtail): about $800–$1,200 (average around $1,000)\nA new hardtail mountain bike (front suspension only) is the best value for most new riders and is easier to maintain than full suspension. Our local bike partners can help with sizing and selection:\n• Sierra Bike Supply\n• TREK Bike Store\n\nHIGH‑END (new full suspension): about $4,000–$7,000+\nFull suspension bikes can be great for more advanced riders, but they are not required to get started. The same local partners above can help families explore this option when appropriate.\n\nRegistered NICA Benefit:\nBoth of our bike partners participate in registered NICA discount programs, which can offer up to 25% off new bikes for licensed NICA student‑athletes. Discounts vary by brand, model, and availability, and require a valid NICA registration at the time of purchase.\n\nPrices vary by season and inventory, but these ranges should help with planning.",
+    aText: "Totally fair question. Many families don't want to invest heavily in gear before knowing if their child will enjoy mountain biking. That's exactly why our program is fun‑first, inclusive, and low‑pressure — many kids discover they love riding once they experience practices with teammates and supportive coaches. Beginner Bike Cost Guide. Here's a simple breakdown of common beginner bike options and typical price ranges. LOW‑COST OPTION (Used or Refurbished): Typical cost $150–$500. MID‑RANGE OPTION (New Entry‑Level Hardtail): Typical cost $800–$1,200. HIGH‑END OPTION (New Full Suspension): Typical cost $4,000–$7,000+. Registered NICA Discount: Both of our bike partners participate in registered NICA discount programs, which can offer up to 25% off new bikes for licensed NICA student‑athletes.",
+    a: (
+      <div className="space-y-4">
+        <p>Totally fair question. Many families don't want to invest heavily in gear before knowing if their child will enjoy mountain biking. That's exactly why our program is fun‑first, inclusive, and low‑pressure — many kids discover they love riding once they experience practices with teammates and supportive coaches.</p>
+
+        <p className="font-bold text-foreground">Beginner Bike Cost Guide</p>
+        <p>Here's a simple breakdown of common beginner bike options and typical price ranges:</p>
+
+        <div>
+          <p className="font-semibold text-foreground mb-1">LOW‑COST OPTION (Used or Refurbished)</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Typical cost:</strong> $150–$500 (most families land around $300–$400)</li>
+            <li><strong>Reno Bike Project:</strong> A local nonprofit community bike shop that refurbishes donated bikes and sells used bikes at affordable price points.</li>
+            <li><strong>Facebook Marketplace:</strong> A good place to find local used bikes at a wide range of prices.</li>
+            <li><em>Tip:</em> If buying used, we recommend a quick safety check at a bike shop before the first practice.</li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="font-semibold text-foreground mb-1">MID‑RANGE OPTION (New Entry‑Level Hardtail)</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Typical cost:</strong> $800–$1,200 (average around $1,000)</li>
+            <li>A hardtail mountain bike (front suspension only) is the best value for most new riders and is easier to maintain than full suspension.</li>
+            <li>Our local bike partners can help with sizing and selection:
+              <ul className="list-disc pl-5 mt-1 space-y-0.5">
+                <li>Sierra Bike Supply</li>
+                <li>TREK Bike Store</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="font-semibold text-foreground mb-1">HIGH‑END OPTION (New Full Suspension)</p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Typical cost:</strong> $4,000–$7,000+</li>
+            <li>Full suspension bikes can be great for more advanced riders, but they are not required to get started.</li>
+            <li>The same local partners above can help families explore this option when appropriate.</li>
+          </ul>
+        </div>
+
+        <p className="font-bold text-foreground">Registered NICA Discount</p>
+        <p>Both of our bike partners participate in registered NICA discount programs, which can offer up to 25% off new bikes for licensed NICA student‑athletes. Discounts vary by brand, model, and availability, and require a valid NICA registration at the time of purchase.</p>
+
+        <p>Prices vary by season and inventory, but these ranges are meant to help families plan without over‑investing early.</p>
+      </div>
+    ),
   },
 ];
 
@@ -41,7 +87,7 @@ const FAQ_JSONLD = {
     name: faq.q,
     acceptedAnswer: {
       "@type": "Answer",
-      text: faq.a,
+      text: typeof faq.a === "string" ? (faq.a as string) : faq.aText || "",
     },
   })),
 };
