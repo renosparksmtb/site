@@ -27,6 +27,10 @@ const FAQS = [
     q: "How do families get updates?",
     a: "Registered families receive weekly emails with practice locations, schedule changes, and race info. We also use team communication tools to keep everyone in the loop.",
   },
+  {
+    q: "Will my kid like it — and how much should I expect to pay for a beginner bike?",
+    a: "This is a very common and totally valid question. Many families don't want to invest heavily in gear before knowing if their child will enjoy mountain biking. That's exactly why our program is fun‑first, inclusive, and low‑pressure — many kids discover they love riding once they experience practices with teammates and supportive coaches.\n\nHere's a simple guide to beginner bike options and typical costs:\n\nLOW‑COST (used or refurbished): about $150–$500 (most families land around $300–$400)\n• Reno Bike Project — a local nonprofit community bike shop that refurbishes donated bikes and sells used bikes at affordable price points.\n• Facebook Marketplace — a great place to find local used bikes at a wide range of prices.\nTip: If buying used, we recommend a quick safety check at a bike shop before the first practice.\n\nMID‑RANGE (new entry‑level hardtail): about $800–$1,200 (average around $1,000)\nA new hardtail mountain bike (front suspension only) is the best value for most new riders and is easier to maintain than full suspension. Our local bike partners can help with sizing and selection:\n• Sierra Bike Supply\n• TREK Bike Store\n\nHIGH‑END (new full suspension): about $4,000–$7,000+\nFull suspension bikes can be great for more advanced riders, but they are not required to get started. The same local partners above can help families explore this option when appropriate.\n\nRegistered NICA Benefit:\nBoth of our bike partners participate in registered NICA discount programs, which can offer up to 25% off new bikes for licensed NICA student‑athletes. Discounts vary by brand, model, and availability, and require a valid NICA registration at the time of purchase.\n\nPrices vary by season and inventory, but these ranges should help with planning.",
+  },
 ];
 
 const FAQ_JSONLD = {
