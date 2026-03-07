@@ -33,9 +33,7 @@ const GritSection = () => (
           </a>
         </div>
         <div className="flex items-center justify-center">
-          <div className="flex h-48 w-48 items-center justify-center rounded-full bg-primary/10">
-            <span className="text-7xl">💪</span>
-          </div>
+          <img src={gritLogo} alt="GRiT – Girls Riding Together logo" className="h-48 w-48 object-contain" />
         </div>
       </div>
     </div>
