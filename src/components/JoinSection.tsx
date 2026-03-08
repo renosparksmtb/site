@@ -2,35 +2,69 @@ const JoinSection = () => (
   <section id="join" className="section-padding bg-gold-light">
     <div className="container-narrow">
       <div className="mb-16">
-        <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Try the Team – No Pressure</h2>
+        <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Try the Team — No Pressure</h2>
         <div className="grid gap-8 md:grid-cols-2">
           <div className="space-y-4 text-foreground/90 leading-relaxed">
             <p>
-              Thanks to NICA's <strong>3‑Time Agreement to Participate</strong>, new riders can attend up
-              to <strong>three team events</strong> — practices, skills clinics, or rides — before
-              officially registering in the NICA Pit Zone.
+              Not sure if this is a fit? That's okay.
             </p>
             <p>
-              This is a fun, pressure‑free way to meet coaches and athletes and see if the Reno‑Sparks
-              Composite MTB Team is the right fit for your family.
+              Many families want to see what the team is like before committing — and that's exactly what "Try the Team" is for.
+            </p>
+
+            <h3 className="pt-2 text-lg font-semibold text-primary">What "No Pressure" Actually Means</h3>
+            <ul className="space-y-1.5 text-foreground/85">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>No tryouts or cuts</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>No racing required</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>No long‑term commitment just to try a practice</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>No expectation to buy new gear right away</span>
+              </li>
+            </ul>
+
+            <h3 className="pt-2 text-lg font-semibold text-primary">What a Try‑It Practice Looks Like</h3>
+            <ul className="space-y-1.5 text-foreground/85">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>Meet the coaches and other riders</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>Easy warm‑up and basic skills</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>Riders grouped by comfort and ability — no one gets left behind</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary font-bold">•</span>
+                <span>Trail riding focused on fun, confidence, and encouragement</span>
+              </li>
+            </ul>
+
+            <h3 className="pt-2 text-lg font-semibold text-primary">New to mountain biking?</h3>
+            <p>
+              You're in the right place. Many of our riders started with little or no trail experience.
             </p>
             <p>
-              New riders must complete NICA's Agreement to Participate and Release of Liability before attending any team events.
+              Most families try one or two practices before deciding — and many are surprised how quickly their kids feel at home.
             </p>
-            <a
-              href="https://nationalmtb.org/agreement-to-participate-and-release-of-liability-form"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
-            >
-              Complete NICA Participation Waiver
-            </a>
-            <h3 className="pt-2 text-lg font-semibold text-primary">How to Get Started</h3>
-            <ol className="list-decimal space-y-2 pl-5 text-foreground/85">
-              <li>Fill out the online waiver form (link below)</li>
-              <li>Email the team to let us know you'd like to attend a few practices</li>
-              <li>Show up, ride, and have fun!</li>
-            </ol>
+            <p className="font-semibold">
+              Come ride with us and see if it's a fit.
+            </p>
+            <p>
+              Questions first? Just reach out — we're happy to help.
+            </p>
           </div>
           <div className="flex flex-col items-start justify-center gap-4">
             <a
