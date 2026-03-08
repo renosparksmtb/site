@@ -1,5 +1,5 @@
-const JoinSection = () => (
-  <section id="join" className="section-padding bg-gold-light">
+const JoinSection = () =>
+<section id="join" className="section-padding bg-gold-light">
     <div className="container-narrow">
       <div className="mb-16">
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Try the Team – No Pressure</h2>
@@ -18,11 +18,11 @@ const JoinSection = () => (
               New riders must complete NICA's Agreement to Participate and Release of Liability before attending any team events.
             </p>
             <a
-              href="https://nationalmtb.org/agreement-to-participate-and-release-of-liability-form"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
-            >
+            href="https://nationalmtb.org/agreement-to-participate-and-release-of-liability-form"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105">
+            
               Complete NICA Participation Waiver
             </a>
             <h3 className="pt-2 text-lg font-semibold text-primary">How to Get Started</h3>
@@ -32,13 +32,13 @@ const JoinSection = () => (
               <li>Show up, ride, and have fun!</li>
             </ol>
           </div>
-          <div className="flex flex-col items-start justify-center gap-4">
+          <div className="flex-col gap-4 flex items-center justify-center">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfcGQ5MNu8trNOgcREDMRtdNDmN-yNkEZa1_ievRYlSNOeP8w/viewform?usp=sharing&ouid=118424864578261391050"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground shadow-lg transition-transform hover:scale-105"
-            >
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfcGQ5MNu8trNOgcREDMRtdNDmN-yNkEZa1_ievRYlSNOeP8w/viewform?usp=sharing&ouid=118424864578261391050"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground shadow-lg transition-transform hover:scale-105">
+            
               Try the Team
             </a>
           </div>
@@ -87,23 +87,23 @@ const JoinSection = () => (
         </ul>
         <div className="mt-6 flex flex-wrap gap-4">
           <a
-            href="https://pitzone.nationalmtb.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
-          >
+          href="https://pitzone.nationalmtb.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105">
+          
             Register in Pit Zone
           </a>
           <a
-            href="mailto:renosparksmtb@gmail.com?subject=Registration%20Question"
-            className="inline-flex rounded-lg border-2 border-primary px-8 py-3.5 text-base font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-          >
+          href="mailto:renosparksmtb@gmail.com?subject=Registration%20Question"
+          className="inline-flex rounded-lg border-2 border-primary px-8 py-3.5 text-base font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground">
+          
             Email Team Director
           </a>
         </div>
       </div>
     </div>
-  </section>
-);
+  </section>;
+
 
 export default JoinSection;
