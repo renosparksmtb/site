@@ -32,7 +32,7 @@ const JoinSection = () =>
               <li>Show up, ride, and have fun!</li>
             </ol>
           </div>
-          <div className="flex-col gap-4 flex items-center justify-center">
+          <div className="gap-4 items-center justify-center flex flex-col">
             <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfcGQ5MNu8trNOgcREDMRtdNDmN-yNkEZa1_ievRYlSNOeP8w/viewform?usp=sharing&ouid=118424864578261391050"
             target="_blank"
