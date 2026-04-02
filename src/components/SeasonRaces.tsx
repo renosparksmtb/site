@@ -47,18 +47,34 @@ const SeasonRaces = () => (
         </div>
 
         <div>
-          <h3 className="mb-4 text-xl font-semibold text-secondary">Race Venues</h3>
+          <h3 className="mb-4 text-xl font-semibold text-secondary">2026 Fall Race Schedule</h3>
           <div className="space-y-3">
-            {VENUES.map((v) => (
+            {([
+              { date: "Aug 22–23", name: "Kirkwood Krank", location: "Kirkwood, CA" },
+              { date: "Sept 12–13", name: "Northstar Navigator", location: "Truckee, CA" },
+              { date: "Sept 19–20", name: "Capital City Crusher", location: "Carson City, NV" },
+              { date: "Oct 3–4", name: "High Sierra Showdown", location: "Mammoth Lakes, CA" },
+              { date: "Oct 17–18", name: "Tahoe Donner Dash", location: "Truckee, CA" },
+            ]).map((r) => (
               <div
-                key={v.name}
-                className="flex items-center gap-4 rounded-xl border border-border bg-card px-5 py-4 shadow-sm"
+                key={r.name}
+                className="flex flex-col gap-1 rounded-xl border border-border bg-card px-5 py-4 shadow-sm sm:flex-row sm:items-center sm:gap-4"
               >
-                <Icon icon={v.icon} className="text-2xl text-primary" />
-                <a href={v.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-foreground underline hover:text-secondary">{v.name}</a>
+                <span className="shrink-0 text-sm font-bold text-secondary sm:w-24">{r.date}</span>
+                <span className="font-semibold text-foreground">{r.name}</span>
+                <span className="text-sm text-muted-foreground sm:ml-auto">{r.location}</span>
               </div>
             ))}
           </div>
+          <a
+            href="https://nevadanorthmtb.org/fall-race-schedule/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex rounded-lg bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+            aria-label="View full Nevada North League race schedule"
+          >
+            View Full League Race Details
+          </a>
         </div>
       </div>
     </div>
