@@ -9,7 +9,6 @@ import Icon from "@/components/Icon";
 import {
   faCalendarCheck,
   faDollarSign,
-  faClipboardCheck,
   faShieldAlt,
   faHandHoldingDollar,
   faBicycle,
@@ -17,7 +16,6 @@ import {
   faTriangleExclamation,
   faArrowLeft,
   faFlag,
-  faMountain,
   faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 
