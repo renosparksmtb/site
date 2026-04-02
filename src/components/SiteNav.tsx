@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const NAV_ITEMS = [
@@ -6,6 +7,7 @@ const NAV_ITEMS = [
   { label: "Who We Are", href: "#who" },
   { label: "Practice in Reno & Sparks", href: "#practice" },
   { label: "Youth MTB Racing", href: "#races" },
+  { label: "2026 Season", href: "/2026", isRoute: true },
   { label: "Join", href: "#join" },
   { label: "Volunteering", href: "#volunteering" },
   { label: "GRiT", href: "#grit" },
