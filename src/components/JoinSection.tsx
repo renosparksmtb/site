@@ -71,6 +71,18 @@ const JoinSection = () => (
         </div>
       </div>
 
+      <div className="mb-12 rounded-xl border-2 border-secondary bg-secondary/10 p-6">
+        <p className="text-foreground/90 leading-relaxed">
+          <strong>Registration is now open for the 2026 season.</strong> To participate beyond the 3‑ride waiver, families must complete Pit Zone registration and be Practice Ready.
+        </p>
+        <a
+          href="/2026"
+          className="mt-4 inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+        >
+          2026 Season &amp; Registration
+        </a>
+      </div>
+
       <div>
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Registration &amp; Fees</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

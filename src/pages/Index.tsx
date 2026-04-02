@@ -12,9 +12,11 @@ import ContactSection from "@/components/ContactSection";
 import SiteFooter from "@/components/SiteFooter";
 import BackToTop from "@/components/BackToTop";
 import ScrollReveal from "@/components/ScrollReveal";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
 
 const Index = () => (
   <>
+    <AnnouncementBanner />
     <SiteNav />
     <main>
       <HeroSection />

@@ -23,8 +23,8 @@ const PracticeSection = () => (
             <p className="text-foreground/85">Preseason practices: May–June (dates posted to registered families). 4–6 sessions to build fitness and skills before the official season kicks off.</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-primary">Regular Season</h3>
-            <p className="mb-2 text-foreground/85">Season officially begins <strong>July 1</strong>.</p>
+           <h3 className="mb-3 text-lg font-semibold text-primary">Regular Season</h3>
+            <p className="mb-2 text-foreground/85">Official team practices begin <strong>July 1</strong>.</p>
             <ul className="space-y-1 text-foreground/85">
               <li>📅 <strong>Tuesdays &amp; Thursdays:</strong> 5:30 pm – 7:30 pm</li>
               <li>📅 <strong>Some Saturdays:</strong> 9:00 am – 11:30 am</li>
