@@ -19,8 +19,8 @@ const PracticeSection = () => (
       <div className="grid gap-8 md:grid-cols-2">
         <div className="space-y-6">
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <h3 className="mb-3 text-lg font-semibold text-primary">Preseason</h3>
-            <p className="text-foreground/85">4–6 preseason practices held in May and June. Dates and times TBD — stay tuned!</p>
+           <h3 className="mb-3 text-lg font-semibold text-primary">Preseason</h3>
+            <p className="text-foreground/85">Preseason practices: May–June (dates posted to registered families). 4–6 sessions to build fitness and skills before the official season kicks off.</p>
           </div>
           <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
             <h3 className="mb-3 text-lg font-semibold text-primary">Regular Season</h3>
