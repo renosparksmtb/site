@@ -293,7 +293,7 @@ const Season2026 = () => (
               May 16, 2026 — Carson City, NV
             </p>
             <ul className="mt-4 max-w-2xl space-y-2 text-foreground/90">
-              <li className="flex flex-col items-start gap-0.5">
+              <li className="flex items-start gap-2">
                 <span className="mt-0.5 font-bold text-secondary">•</span>
                 Juniors (including NICA student‑athletes) race <strong>FREE</strong> in a dedicated junior category
               </li>
