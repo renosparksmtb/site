@@ -8,7 +8,6 @@ const NAV_ITEMS = [
   { label: "Who We Are", href: "/#who" },
   { label: "Practice in Reno & Sparks", href: "/#practice" },
   { label: "Youth MTB Racing", href: "/#races" },
-  { label: "2026 Season", href: "/2026" },
   { label: "Join", href: "/#join" },
   { label: "Volunteering", href: "/#volunteering" },
   { label: "GRiT", href: "/#grit" },
