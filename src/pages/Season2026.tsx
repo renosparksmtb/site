@@ -33,8 +33,8 @@ const CHECKLIST = [
 ];
 
 const COVERAGE = [
-  "NICA national registration (pass-through)",
-  "NICA tech fee (pass-through)",
+  "NICA national registration",
+  "NICA tech fee",
   "Nevada North league registration",
   "Insurance coverage for team practices and league events",
   "Race weekends + GRiT events + Teen Trail Corps + additional league programming",
