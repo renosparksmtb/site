@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Icon from "@/components/Icon";
 import { faFileSignature, faEnvelope, faBiking } from "@fortawesome/free-solid-svg-icons";
 import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
@@ -75,12 +76,12 @@ const JoinSection = () => (
         <p className="text-foreground/90 leading-relaxed">
           <strong>Registration is now open for the 2026 season.</strong> To participate beyond the 3‑ride waiver, families must complete Pit Zone registration and be Practice Ready.
         </p>
-        <a
-          href="/2026"
+        <Link
+          to="/2026"
           className="mt-4 inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
         >
           2026 Season &amp; Registration
-        </a>
+        </Link>
       </div>
 
       <div>
