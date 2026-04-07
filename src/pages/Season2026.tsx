@@ -123,6 +123,11 @@ const Season2026 = () => (
         </section>
       </ScrollReveal>
 
+      {/* Team Store */}
+      <ScrollReveal>
+        <TeamStore />
+      </ScrollReveal>
+
       {/* B) Key Dates */}
       <ScrollReveal>
         <section className="section-padding bg-background">
