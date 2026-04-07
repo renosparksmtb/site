@@ -17,6 +17,9 @@ const SiteFooter = () => (
       <a href="https://pitzone.nationalmtb.org/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
         NICA Pit Zone Registration
       </a>
+      <a href="https://renosparksmtb.printful.me/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
+        Team Store
+      </a>
     </div>
     <div className="mt-4 flex justify-center gap-4">
       <a href="https://www.facebook.com/renosparksmtb" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-opacity hover:opacity-80">
