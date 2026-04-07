@@ -7,6 +7,7 @@ import JoinSection from "@/components/JoinSection";
 import Volunteering from "@/components/Volunteering";
 import GritSection from "@/components/GritSection";
 import GearSection from "@/components/GearSection";
+import TeamStore from "@/components/TeamStore";
 import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import SiteFooter from "@/components/SiteFooter";
@@ -27,6 +28,7 @@ const Index = () => (
       <ScrollReveal><Volunteering /></ScrollReveal>
       <ScrollReveal><GritSection /></ScrollReveal>
       <ScrollReveal><GearSection /></ScrollReveal>
+      <ScrollReveal><TeamStore /></ScrollReveal>
       <ScrollReveal><FaqSection /></ScrollReveal>
       <ScrollReveal><ContactSection /></ScrollReveal>
     </main>
