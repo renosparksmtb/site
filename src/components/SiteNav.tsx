@@ -6,12 +6,13 @@ import { useHashScroll } from "@/hooks/use-hash-scroll";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "Who We Are", href: "/#who" },
-  { label: "Practice in Reno & Sparks", href: "/#practice" },
-  { label: "Youth MTB Racing", href: "/#races" },
+  { label: "Practice", href: "/#practice" },
+  { label: "Racing", href: "/#races" },
   { label: "Join", href: "/#join" },
   { label: "Volunteering", href: "/#volunteering" },
   { label: "GRiT", href: "/#grit" },
   { label: "Gear", href: "/#gear" },
+  { label: "Store", href: "/#store" },
   { label: "FAQ", href: "/#faq" },
   { label: "Contact", href: "/#contact" },
 ];
