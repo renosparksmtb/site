@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
 import BackToTop from "@/components/BackToTop";
 import ScrollReveal from "@/components/ScrollReveal";
+import TeamStore from "@/components/TeamStore";
 import Icon from "@/components/Icon";
 import {
   faCalendarCheck,
