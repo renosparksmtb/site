@@ -23,7 +23,7 @@ const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
   },
   {
     q: "How do we try the team?",
-    a: (<>Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up! See <Link to="/#join" className="underline font-semibold text-primary hover:text-secondary">how kids can try the team</Link>.</>),
+    a: (<>Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up! See <a href="#join" onClick={(e) => { e.preventDefault(); document.getElementById("join")?.scrollIntoView({ behavior: "smooth" }); }} className="underline font-semibold text-primary hover:text-secondary cursor-pointer">how kids can try the team</a>.</>),
     aText: "Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up!",
   },
   {
