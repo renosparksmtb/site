@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
 import BackToTop from "@/components/BackToTop";
 import ScrollReveal from "@/components/ScrollReveal";
-import TeamStore from "@/components/TeamStore";
+
 import Icon from "@/components/Icon";
 import {
   faCalendarCheck,
@@ -121,11 +121,6 @@ const Season2026 = () => (
             </div>
           </div>
         </section>
-      </ScrollReveal>
-
-      {/* Team Store */}
-      <ScrollReveal>
-        <TeamStore />
       </ScrollReveal>
 
       {/* B) Key Dates */}
