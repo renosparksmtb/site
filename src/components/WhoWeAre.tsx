@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { faFaceSmile, faUsers, faScaleBalanced, faHandshake, faHouseChimney } from "@fortawesome/free-solid-svg-icons";
 import Icon from "@/components/Icon";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
@@ -39,9 +40,14 @@ const WhoWeAre = () => (
             Spanish Springs, North Valleys, and Debbie Smith. If you attend, plan to attend, or are zoned
             for one of these schools, Reno‑Sparks Composite MTB is your team.
           </p>
-          <p>
+           <p>
             Serving youth and families across Reno, Sparks, Washoe County, and the greater Northern Nevada
             region, our team is proud to be part of the growing mountain biking community in the area.
+            Learn more about our{" "}
+            <Link to="/reno-youth-mountain-bike" className="underline font-semibold text-primary hover:text-secondary">
+              Reno youth mountain bike team
+            </Link>{" "}
+            and what makes us different.
           </p>
         </div>
         <div>

@@ -1,11 +1,13 @@
 import { useState, type ReactNode } from "react";
+import { Link } from "react-router-dom";
 import Icon from "@/components/Icon";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
   {
     q: "Who can join?",
-    a: "Any student in grades 5–12 in the Reno‑Sparks area, regardless of experience level. All genders welcome!",
+    a: (<>Any student in grades 5–12 in the Reno‑Sparks area, regardless of experience level. All genders welcome! <Link to="/reno-youth-mountain-bike" className="underline font-semibold text-primary hover:text-secondary">New to mountain biking?</Link> Learn what makes our team a great fit.</>),
+    aText: "Any student in grades 5–12 in the Reno‑Sparks area, regardless of experience level. All genders welcome!",
   },
   {
     q: "What is a composite team?",
@@ -21,7 +23,8 @@ const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
   },
   {
     q: "How do we try the team?",
-    a: "Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up!",
+    a: (<>Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up! See <Link to="/#join" className="underline font-semibold text-primary hover:text-secondary">how kids can try the team</Link>.</>),
+    aText: "Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up!",
   },
   {
     q: "How do families get updates?",
