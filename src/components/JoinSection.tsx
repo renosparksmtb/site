@@ -104,7 +104,13 @@ const JoinSection = () => (
         </div>
         <p className="mt-6 text-foreground/85">
           Registration is completed through the <strong>NICA Pit Zone</strong>. Riders must be fully
-          registered to continue beyond the 3‑ride waiver.
+          registered to continue beyond the 3‑ride waiver. To confirm whether your student‑athlete
+          qualifies for the Reno‑Sparks Composite MTB Team, use the Nevada North Cycling League's
+          official{" "}
+          <a href="https://nevadanorthmtb.org/find-a-team/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+            Find a Team
+          </a>{" "}
+          tool.
         </p>
         <ul className="mt-4 space-y-2 text-foreground/85">
           <li className="flex items-start gap-2">

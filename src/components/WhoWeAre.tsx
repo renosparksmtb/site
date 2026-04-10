@@ -31,15 +31,21 @@ const WhoWeAre = () => (
           </p>
            <p>
             The Reno‑Sparks Composite MTB Team is a <strong>composite team</strong>, meaning we serve
-            students in the Reno‑Sparks area whose high school does not have a mountain bike team of its
-            own. This includes 5th–8th grade students who are zoned for a high school that does not yet
-            have a team.
+            students in the Reno‑Sparks area whose school does not currently have its own NICA mountain
+            bike team. This allows more kids to participate in youth mountain biking, regardless of school.
           </p>
           <p>
-            As of 2026, Washoe County schools without a NICA team include Hug, Wooster, Sparks, Reed,
-            Spanish Springs, North Valleys, and Debbie Smith. If you attend, plan to attend, or are zoned
-            for one of these schools, Reno‑Sparks Composite MTB is your team.
+            To confirm whether your student‑athlete qualifies for the Reno‑Sparks Composite MTB Team,
+            families should use the Nevada North Cycling League's official "Find a Team" tool.
           </p>
+          <a
+            href="https://nevadanorthmtb.org/find-a-team/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-lg bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+          >
+            Find My Team
+          </a>
            <p>
             Serving youth and families across Reno, Sparks, Washoe County, and the greater Northern Nevada
             region, our team is proud to be part of the growing mountain biking community in the area.

@@ -157,7 +157,7 @@ const RenoYouthMountainBike = () => (
             <h2 className="mb-6 text-3xl font-bold text-primary sm:text-4xl">
               Who Can Join the Reno‑Sparks Composite MTB Team
             </h2>
-            <div className="space-y-4 text-foreground/90 leading-relaxed">
+             <div className="space-y-4 text-foreground/90 leading-relaxed">
               <p>
                 Any student in grades 5 through 12 in the Reno‑Sparks area can join — all genders
                 welcome, all experience levels.
@@ -169,6 +169,19 @@ const RenoYouthMountainBike = () => (
                 school.
               </p>
               <p>
+                To confirm whether your student‑athlete qualifies for the Reno‑Sparks Composite MTB
+                Team, families should use the Nevada North Cycling League's official "Find a Team"
+                tool.
+              </p>
+              <a
+                href="https://nevadanorthmtb.org/find-a-team/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+              >
+                Find My Team
+              </a>
+              <p>
                 Learn more about{" "}
                 <Link to="/#who" className="underline font-semibold text-primary hover:text-secondary">
                   who we are
@@ -177,7 +190,7 @@ const RenoYouthMountainBike = () => (
                 <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
                   FAQ
                 </Link>{" "}
-                for details on which schools are currently eligible.
+                for common questions about eligibility and getting started.
               </p>
             </div>
           </div>
