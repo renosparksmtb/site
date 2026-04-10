@@ -11,7 +11,8 @@ const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
   },
   {
     q: "What is a composite team?",
-    a: "A composite team serves students whose school doesn't have its own mountain bike team. We bring riders from multiple schools together under one team.",
+    a: (<>A composite team serves students whose school doesn't have its own NICA mountain bike team. We bring riders from multiple schools together under one team. To confirm whether your student‑athlete qualifies for our team, use the Nevada North Cycling League's official{" "}<a href="https://nevadanorthmtb.org/find-a-team/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-primary hover:text-secondary">Find a Team</a> tool.</>),
+    aText: "A composite team serves students whose school doesn't have its own NICA mountain bike team. We bring riders from multiple schools together under one team. To confirm whether your student-athlete qualifies, use the Nevada North Cycling League's official Find a Team tool at https://nevadanorthmtb.org/find-a-team/.",
   },
   {
     q: "Does my child need race experience?",
