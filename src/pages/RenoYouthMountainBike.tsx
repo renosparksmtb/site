@@ -15,6 +15,8 @@ import {
   faHeart,
   faMedal,
   faMountain,
+  faHandsHelping,
+  faCalendarAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 const WHAT_WE_ARE = [
@@ -39,7 +41,7 @@ const PAGE_JSONLD = {
   name: "Reno-Sparks Composite MTB Team",
   sport: "Mountain Biking",
   description:
-    "A fun, inclusive, beginner-friendly youth mountain bike team serving grades 5–12 in Reno, Sparks, and Washoe County, Nevada. Affiliated with NICA.",
+    "A beginner-friendly youth mountain bike team in Reno & Sparks for grades 5–12. No experience required. Racing optional. Try the team before committing.",
   url: "https://renosparksmtb.org/reno-youth-mountain-bike",
   areaServed: {
     "@type": "Place",
@@ -55,10 +57,10 @@ const PAGE_JSONLD = {
 const RenoYouthMountainBike = () => (
   <>
     <Helmet>
-      <title>Reno Youth Mountain Bike Team | Grades 5–12 | NICA</title>
+      <title>Reno Youth Mountain Bike Team | Grades 5–12 | Reno &amp; Sparks</title>
       <meta
         name="description"
-        content="Join the Reno-Sparks youth mountain bike team for grades 5–12. Beginner-friendly, fun-first, NICA-affiliated MTB program in Reno, Sparks & Washoe County, NV."
+        content="A beginner‑friendly youth mountain bike team in Reno & Sparks for grades 5–12. No experience required. Racing optional. Try the team before committing."
       />
       <link rel="canonical" href="https://renosparksmtb.org/reno-youth-mountain-bike" />
       <meta name="keywords" content="reno youth mountain bike, kids mountain biking reno, youth mtb reno nevada, middle school mountain bike reno, NICA reno sparks" />
@@ -89,9 +91,12 @@ const RenoYouthMountainBike = () => (
             Reno Youth Mountain Bike Team (Grades&nbsp;5–12)
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-primary-foreground/85 leading-relaxed">
-            The Reno‑Sparks Composite MTB Team is a fun, inclusive, and beginner‑friendly youth
-            mountain bike team serving families across Reno, Sparks, Washoe County, and Northern
-            Nevada. We're part of the{" "}
+            The Reno‑Sparks Composite MTB Team is a beginner‑friendly youth mountain bike team
+            serving kids and teens in Reno and Sparks, Nevada. We welcome riders in grades 5–12,
+            including those who are brand new to mountain biking.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-foreground/85 leading-relaxed">
+            Our focus is on fun, skill development, confidence, and community. Racing through the{" "}
             <a
               href="https://nationalmtb.org/"
               target="_blank"
@@ -99,8 +104,8 @@ const RenoYouthMountainBike = () => (
               className="underline font-bold hover:text-secondary"
             >
               National Interscholastic Cycling Association (NICA)
-            </a>
-            , the largest youth cycling organization in the United States.
+            </a>{" "}
+            is available, but never required.
           </p>
         </div>
       </section>
@@ -155,17 +160,24 @@ const RenoYouthMountainBike = () => (
             <div className="space-y-4 text-foreground/90 leading-relaxed">
               <p>
                 Any student in grades 5 through 12 in the Reno‑Sparks area can join — all genders
-                welcome, all experience levels. As a{" "}
-                <strong>composite team</strong>, we serve students whose school doesn't have its own
-                mountain bike team. This includes middle schoolers zoned for schools like Hug,
-                Wooster, Sparks, Reed, Spanish Springs, North Valleys, and Debbie Smith.
+                welcome, all experience levels.
+              </p>
+              <p>
+                We are a <strong>composite team</strong>, which means we serve students in the
+                Reno‑Sparks area whose school does not currently have its own NICA mountain bike
+                team. This allows more kids to participate in youth mountain biking, regardless of
+                school.
               </p>
               <p>
                 Learn more about{" "}
                 <Link to="/#who" className="underline font-semibold text-primary hover:text-secondary">
                   who we are
                 </Link>{" "}
-                and the NICA core values that guide our team.
+                and the NICA core values that guide our team, or check the{" "}
+                <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
+                  FAQ
+                </Link>{" "}
+                for details on which schools are currently eligible.
               </p>
             </div>
           </div>
@@ -202,9 +214,39 @@ const RenoYouthMountainBike = () => (
         </section>
       </ScrollReveal>
 
-      {/* Is Mountain Biking Safe for Kids? */}
+      {/* No One Gets Left Behind */}
       <ScrollReveal>
         <section className="section-padding bg-gold-light">
+          <div className="container-narrow">
+            <div className="flex items-start gap-4 mb-6">
+              <div className="hidden sm:flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
+                <Icon icon={faHandsHelping} className="text-2xl" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-primary sm:text-4xl">
+                  No One Gets Left Behind
+                </h2>
+              </div>
+            </div>
+            <div className="space-y-4 text-foreground/90 leading-relaxed">
+              <p>
+                At every practice, riders are grouped by ability so everyone rides at a pace that
+                challenges them without overwhelming them. Beginners ride with beginners. More
+                experienced riders push each other to grow.
+              </p>
+              <p>
+                Every group has experienced coaches and ride leaders who know the trails, the
+                riders, and how to keep things fun. Our culture is encouraging, supportive, and
+                built around the idea that every kid belongs on the trail.
+              </p>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
+
+      {/* Is Mountain Biking Safe for Kids? */}
+      <ScrollReveal>
+        <section className="section-padding bg-background">
           <div className="container-narrow">
             <div className="flex items-start gap-4 mb-6">
               <div className="hidden sm:flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
@@ -236,7 +278,7 @@ const RenoYouthMountainBike = () => (
 
       {/* Racing Is Optional */}
       <ScrollReveal>
-        <section className="section-padding bg-background">
+        <section className="section-padding bg-blue-light">
           <div className="container-narrow">
             <div className="flex items-start gap-4 mb-6">
               <div className="hidden sm:flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
@@ -256,6 +298,58 @@ const RenoYouthMountainBike = () => (
                 great — we'll be there cheering them on. If not, they'll still get the full team
                 experience.
               </p>
+              <p>
+                Check out the{" "}
+                <Link to="/#races" className="underline font-semibold text-primary hover:text-secondary">
+                  race schedule
+                </Link>{" "}
+                to see what NICA events look like.
+              </p>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
+
+      {/* Youth MTB Team vs Camps, Clinics, and Lessons */}
+      <ScrollReveal>
+        <section className="section-padding bg-background">
+          <div className="container-narrow">
+            <div className="flex items-start gap-4 mb-6">
+              <div className="hidden sm:flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <Icon icon={faCalendarAlt} className="text-2xl" />
+              </div>
+              <div>
+                <h2 className="text-3xl font-bold text-primary sm:text-4xl">
+                  Youth MTB Team vs Camps, Clinics, and Lessons
+                </h2>
+              </div>
+            </div>
+            <div className="space-y-4 text-foreground/90 leading-relaxed">
+              <p>
+                If you're searching for youth mountain biking options in Reno, you'll find teams,
+                camps, clinics, and private coaching. Here's how they differ:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  <strong>Youth MTB teams</strong> (like ours) meet regularly over a full season —
+                  typically July through October. Riders build skills, fitness, and friendships over
+                  time, with the option to race.
+                </li>
+                <li>
+                  <strong>Camps and clinics</strong> are short‑term programs, usually lasting a few
+                  days to a week. They're great for focused skill instruction and introduction to
+                  the sport.
+                </li>
+                <li>
+                  <strong>Private coaching</strong> is one‑on‑one instruction focused on specific
+                  skills or race preparation.
+                </li>
+              </ul>
+              <p>
+                Many families use camps or clinics alongside being on a team — they complement each
+                other well. A team provides the ongoing community, structure, and season‑long
+                progression that short‑term programs can't offer.
+              </p>
             </div>
           </div>
         </section>
@@ -263,7 +357,7 @@ const RenoYouthMountainBike = () => (
 
       {/* Is This the Right Fit? */}
       <ScrollReveal>
-        <section className="section-padding bg-blue-light">
+        <section className="section-padding bg-gold-light">
           <div className="container-narrow">
             <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">
               Is This the Right Fit for My Child?
@@ -358,9 +452,9 @@ const RenoYouthMountainBike = () => (
         </section>
       </ScrollReveal>
 
-      {/* How to Try the Team */}
+      {/* Try the Team — No Commitment Required */}
       <ScrollReveal>
-        <section className="section-padding bg-gold-light">
+        <section className="section-padding bg-blue-light">
           <div className="container-narrow">
             <div className="flex items-start gap-4 mb-6">
               <div className="hidden sm:flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
@@ -368,16 +462,20 @@ const RenoYouthMountainBike = () => (
               </div>
               <div>
                 <h2 className="text-3xl font-bold text-primary sm:text-4xl">
-                  How to Try the Team (3‑Practice Trial)
+                  Try the Team — No Commitment Required
                 </h2>
               </div>
             </div>
             <div className="space-y-4 text-foreground/90 leading-relaxed">
               <p>
-                Through NICA's <strong>3‑Time Agreement to Participate</strong>, new riders can
-                attend up to three team events — practices, skills clinics, or group rides — before
-                officially registering. It's a no‑pressure way to see if mountain biking is right
-                for your child.
+                Not sure if your child is ready to commit? No problem. Through NICA's{" "}
+                <strong>3‑Time Agreement to Participate</strong>, new riders can attend up to three
+                team events — practices, skills clinics, or group rides — before officially
+                registering.
+              </p>
+              <p>
+                It's a no‑pressure, beginner‑friendly way to see if mountain biking is right for
+                your family. Families can evaluate fit before making any financial commitment.
               </p>
               <p>
                 All you need to do is complete a{" "}
@@ -390,6 +488,11 @@ const RenoYouthMountainBike = () => (
                   NICA participation waiver
                 </a>
                 , email our Team Director to let us know you're coming, and show up ready to ride.
+                Learn more about{" "}
+                <Link to="/#join" className="underline font-semibold text-primary hover:text-secondary">
+                  how to join
+                </Link>
+                .
               </p>
             </div>
           </div>
