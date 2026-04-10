@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Season2026 from "./pages/Season2026";
 import RenoYouthMountainBike from "./pages/RenoYouthMountainBike";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
