@@ -47,8 +47,7 @@ const RACE_SCHEDULE = [
   { date: "Sept 19–20", name: "Capital City Crusher", location: "Carson City, NV" },
   { date: "Oct 3–4", name: "High Sierra Showdown", location: "Mammoth Lakes, CA" },
   { date: "Oct 17–18", name: "Tahoe Donner Dash", location: "Truckee, CA" },
-  { date: "Oct 24–25", name: "Make-up weekend", location: "TBD" },
-  { date: "Nov 14–15", name: "NICA Western Regionals", location: "TBD" },
+  { date: "Nov 14–15", name: "NICA Western Regionals", location: "St. George, UT" },
 ];
 
 const Season2026 = () => (
