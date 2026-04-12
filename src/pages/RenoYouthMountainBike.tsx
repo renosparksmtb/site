@@ -452,9 +452,15 @@ const RenoYouthMountainBike = () => (
                 for everything riders need.
               </p>
               <p>
-                A limited <strong>loaner bike program</strong> may be available for registered NICA
-                student‑athletes who are just getting started. Scholarships are also available to
-                help cover registration fees. Visit the{" "}
+                A limited{" "}
+                <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="underline font-bold text-primary hover:text-secondary">
+                  loaner bike program
+                </a>{" "}
+                may be available for registered NICA student‑athletes who are just getting started.{" "}
+                <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="underline font-bold text-primary hover:text-secondary">
+                  Scholarships
+                </a>{" "}
+                are also available to help cover registration fees. Visit the{" "}
                 <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
                   FAQ
                 </Link>{" "}
