@@ -28,6 +28,11 @@ const FAQS: { q: string; a: ReactNode; aText?: string }[] = [
     aText: "Through NICA's 3‑Time Agreement to Participate, new riders can attend up to three events before officially registering. Just email us and show up!",
   },
   {
+    q: "Do you offer scholarships or loaner bikes?",
+    a: (<>Yes — Nevada North offers need‑based scholarships and a loaner bike program to help families participate. <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="underline font-semibold text-primary hover:text-secondary">Apply and learn more here</a>.</>),
+    aText: "Yes — Nevada North offers need-based scholarships and a loaner bike program to help families participate. Apply and learn more at https://nevadanorthmtb.org/participation-fees/.",
+  },
+  {
     q: "How do families get updates?",
     a: "Registered families receive weekly emails with practice locations, schedule changes, and race info. We also use team communication tools to keep everyone in the loop.",
   },

@@ -150,52 +150,8 @@ const RenoYouthMountainBike = () => (
         </section>
       </ScrollReveal>
 
-      {/* Who Can Join */}
-      <ScrollReveal>
-        <section className="section-padding bg-blue-light">
-          <div className="container-narrow">
-            <h2 className="mb-6 text-3xl font-bold text-primary sm:text-4xl">
-              Who Can Join the Reno‑Sparks Composite MTB Team
-            </h2>
-             <div className="space-y-4 text-foreground/90 leading-relaxed">
-              <p>
-                Any student in grades 5 through 12 in the Reno‑Sparks area can join — all genders
-                welcome, all experience levels.
-              </p>
-              <p>
-                We are a <strong>composite team</strong>, which means we serve students in the
-                Reno‑Sparks area whose school does not currently have its own NICA mountain bike
-                team. This allows more kids to participate in youth mountain biking, regardless of
-                school.
-              </p>
-              <p>
-                To confirm whether your student‑athlete qualifies for the Reno‑Sparks Composite MTB
-                Team, families should use the Nevada North Cycling League's official "Find a Team"
-                tool.
-              </p>
-              <a
-                href="https://nevadanorthmtb.org/find-a-team/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
-              >
-                Find My Team
-              </a>
-              <p>
-                Learn more about{" "}
-                <Link to="/#who" className="underline font-semibold text-primary hover:text-secondary">
-                  who we are
-                </Link>{" "}
-                and the NICA core values that guide our team, or check the{" "}
-                <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
-                  FAQ
-                </Link>{" "}
-                for common questions about eligibility and getting started.
-              </p>
-            </div>
-          </div>
-        </section>
-      </ScrollReveal>
+
+
 
       {/* Beginners Welcome */}
       <ScrollReveal>
@@ -452,9 +408,15 @@ const RenoYouthMountainBike = () => (
                 for everything riders need.
               </p>
               <p>
-                A limited <strong>loaner bike program</strong> may be available for registered NICA
-                student‑athletes who are just getting started. Scholarships are also available to
-                help cover registration fees. Visit the{" "}
+                A limited{" "}
+                <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="underline font-bold text-primary hover:text-secondary">
+                  loaner bike program
+                </a>{" "}
+                may be available for registered NICA student‑athletes who are just getting started.{" "}
+                <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="underline font-bold text-primary hover:text-secondary">
+                  Scholarships
+                </a>{" "}
+                are also available to help cover registration fees. Visit the{" "}
                 <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
                   FAQ
                 </Link>{" "}
@@ -465,7 +427,53 @@ const RenoYouthMountainBike = () => (
         </section>
       </ScrollReveal>
 
-      {/* Try the Team — No Commitment Required */}
+      {/* Who Can Join */}
+      <ScrollReveal>
+        <section className="section-padding bg-blue-light">
+          <div className="container-narrow">
+            <h2 className="mb-6 text-3xl font-bold text-primary sm:text-4xl">
+              Who Can Join the Reno‑Sparks Composite MTB Team
+            </h2>
+            <div className="space-y-4 text-foreground/90 leading-relaxed">
+              <p>
+                Any student in grades 5 through 12 in the Reno‑Sparks area can join — all genders
+                welcome, all experience levels.
+              </p>
+              <p>
+                We are a <strong>composite team</strong>, which means we serve students in the
+                Reno‑Sparks area whose school does not currently have its own NICA mountain bike
+                team. This allows more kids to participate in youth mountain biking, regardless of
+                school.
+              </p>
+              <p>
+                To confirm whether your student‑athlete qualifies for the Reno‑Sparks Composite MTB
+                Team, families should use the Nevada North Cycling League's official "Find a Team"
+                tool.
+              </p>
+              <a
+                href="https://nevadanorthmtb.org/find-a-team/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-lg bg-primary px-8 py-3.5 text-base font-bold text-primary-foreground shadow-lg transition-transform hover:scale-105"
+              >
+                Find My Team
+              </a>
+              <p>
+                Learn more about{" "}
+                <Link to="/#who" className="underline font-semibold text-primary hover:text-secondary">
+                  who we are
+                </Link>{" "}
+                and the NICA core values that guide our team, or check the{" "}
+                <Link to="/#faq" className="underline font-semibold text-primary hover:text-secondary">
+                  FAQ
+                </Link>{" "}
+                for common questions about eligibility and getting started.
+              </p>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
+
       <ScrollReveal>
         <section className="section-padding bg-blue-light">
           <div className="container-narrow">

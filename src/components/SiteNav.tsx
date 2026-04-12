@@ -12,8 +12,8 @@ const NAV_ITEMS = [
   { label: "Volunteering", href: "/#volunteering" },
   { label: "GRiT", href: "/#grit" },
   { label: "Gear", href: "/#gear" },
-  { label: "Store", href: "/#store" },
   { label: "FAQ", href: "/#faq" },
+  { label: "Store", href: "/#store" },
   { label: "Contact", href: "/#contact" },
 ];
 
