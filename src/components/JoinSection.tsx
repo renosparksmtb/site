@@ -115,21 +115,34 @@ const JoinSection = () => (
         <ul className="mt-4 space-y-2 text-foreground/85">
           <li className="flex items-start gap-2">
             <span className="mt-0.5 text-secondary font-bold">•</span>
-            <span>If you need a mountain bike, you may be able to loan one for the season from the{" "}
-              <a href="https://nevadanorthmtb.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
-                Nevada North Interscholastic Cycling League (NNICL)
-              </a>.
+            <span>If you need a mountain bike, you may be able to{" "}
+              <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+                loan one for the season
+              </a>{" "}
+              from the Nevada North Interscholastic Cycling League (NNICL).
             </span>
           </li>
           <li className="flex items-start gap-2">
             <span className="mt-0.5 text-secondary font-bold">•</span>
-            <span>Scholarships to help cover registration fees are available through{" "}
-              <a href="https://nevadanorthmtb.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
-                NNICL
-              </a>.
+            <span>
+              <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+                Scholarships
+              </a>{" "}
+              to help cover registration fees are available through NNICL.
             </span>
           </li>
         </ul>
+        <div className="mt-4 rounded-xl border-2 border-secondary bg-secondary/10 p-5">
+          <p className="font-bold text-foreground mb-2">Need a bike or help with fees?</p>
+          <a
+            href="https://nevadanorthmtb.org/participation-fees/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex rounded-lg bg-secondary px-8 py-3.5 text-base font-bold text-secondary-foreground shadow-lg transition-transform hover:scale-105"
+          >
+            Scholarships &amp; Loaner Bikes (Nevada North)
+          </a>
+        </div>
         <div className="mt-6 flex flex-wrap gap-4">
           <a
             href="https://pitzone.nationalmtb.org/"

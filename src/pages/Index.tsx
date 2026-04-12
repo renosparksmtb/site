@@ -28,8 +28,8 @@ const Index = () => (
       <ScrollReveal><Volunteering /></ScrollReveal>
       <ScrollReveal><GritSection /></ScrollReveal>
       <ScrollReveal><GearSection /></ScrollReveal>
-      <ScrollReveal><TeamStore /></ScrollReveal>
       <ScrollReveal><FaqSection /></ScrollReveal>
+      <ScrollReveal><TeamStore /></ScrollReveal>
       <ScrollReveal><ContactSection /></ScrollReveal>
     </main>
     <SiteFooter />
