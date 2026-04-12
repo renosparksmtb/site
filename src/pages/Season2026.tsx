@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import seasonHero from "@/assets/season-hero.jpg";
 import { Helmet } from "react-helmet-async";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
@@ -76,9 +77,16 @@ const Season2026 = () => (
       </div>
 
       {/* Hero */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-narrow text-center">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
+      <section className="relative flex min-h-[50vh] items-center justify-center overflow-hidden">
+        <img
+          src={seasonHero}
+          alt="NICA youth mountain bikers racing through pine forest trail"
+          className="absolute inset-0 h-full w-full object-cover"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-primary/70" />
+        <div className="relative z-10 container-narrow text-center section-padding">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-primary-foreground sm:text-5xl">
             2026 Season &amp; Registration
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-primary-foreground/85">
