@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import seoHero from "@/assets/seo-hero.jpg";
 import { Helmet } from "react-helmet-async";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
@@ -85,8 +86,15 @@ const RenoYouthMountainBike = () => (
       </div>
 
       {/* Hero */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-narrow text-center">
+      <section className="relative flex min-h-[50vh] items-center justify-center overflow-hidden">
+        <img
+          src={seoHero}
+          alt="Youth mountain bikers riding trails near Reno with mountain backdrop"
+          className="absolute inset-0 h-full w-full object-cover"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-primary/70" />
+        <div className="relative z-10 container-narrow text-center section-padding">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
             Reno Youth Mountain Bike Team (Grades&nbsp;5–12)
           </h1>
