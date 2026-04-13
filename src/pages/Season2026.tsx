@@ -353,7 +353,7 @@ const Season2026 = () => (
               Western Regionals — Save the Date
             </h2>
             <p className="mx-auto mb-2 max-w-2xl text-lg text-primary-foreground/85">
-              <strong>November 14–15, 2026</strong> — the first-ever NICA Western Regionals (location TBD)
+              <strong>November 14–15, 2026</strong> — the first-ever NICA Western Regionals in Vernal, UT
             </p>
             <p className="mx-auto max-w-2xl text-sm text-primary-foreground/70">
               High school riders (9th–12th grade) are eligible. Middle school student‑athletes racing in the HS category must wait until 9th grade to qualify.
