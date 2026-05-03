@@ -86,7 +86,7 @@ const Season2026 = () => (
         />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 container-narrow text-center section-padding">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-primary-foreground sm:text-5xl">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl text-primary-foreground">
             2026 Season &amp; Registration
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-primary-foreground/85">
