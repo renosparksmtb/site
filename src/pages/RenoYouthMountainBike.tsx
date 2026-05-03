@@ -95,7 +95,7 @@ const RenoYouthMountainBike = () => (
         />
         <div className="absolute inset-0 bg-primary/70" />
         <div className="relative z-10 container-narrow text-center section-padding">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl">
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight sm:text-5xl text-primary-foreground">
             Reno Youth Mountain Bike Team (Grades&nbsp;5–12)
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-primary-foreground/85 leading-relaxed">
