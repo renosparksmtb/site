@@ -9,7 +9,7 @@ const NAV_ITEMS = [
   { label: "Practice", href: "/#practice" },
   { label: "Racing", href: "/#races" },
   { label: "Join", href: "/#join" },
-  { label: "Donate", href: "/#donate", cta: true },
+  { label: "Donate", href: "/#donate" },
   { label: "Volunteering", href: "/#volunteering" },
   { label: "GRiT", href: "/#grit" },
   { label: "Gear", href: "/#gear" },
