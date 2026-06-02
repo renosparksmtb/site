@@ -119,9 +119,7 @@ const SiteNav = () => {
               <button
                 onClick={() => handleNav(n.href)}
                 className={`rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors ${
-                  n.cta
-                    ? "bg-secondary text-secondary-foreground hover:bg-secondary/90"
-                    : isActive(n.href)
+                  isActive(n.href)
                     ? "bg-secondary text-secondary-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
