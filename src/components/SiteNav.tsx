@@ -9,13 +9,13 @@ const NAV_ITEMS = [
   { label: "Practice", href: "/#practice" },
   { label: "Racing", href: "/#races" },
   { label: "Join", href: "/#join" },
+  { label: "Donate", href: "/#donate", cta: true },
   { label: "Volunteering", href: "/#volunteering" },
   { label: "GRiT", href: "/#grit" },
   { label: "Gear", href: "/#gear" },
   { label: "FAQ", href: "/#faq" },
   { label: "Store", href: "/#store" },
   { label: "Contact", href: "/#contact" },
-  { label: "Donate", href: "/#donate", cta: true },
 ];
 
 const SiteNav = () => {
