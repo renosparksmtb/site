@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { label: "FAQ", href: "/#faq" },
   { label: "Store", href: "/#store" },
   { label: "Contact", href: "/#contact" },
+  { label: "Donate", href: "/#donate", cta: true },
 ];
 
 const SiteNav = () => {
@@ -118,7 +119,9 @@ const SiteNav = () => {
               <button
                 onClick={() => handleNav(n.href)}
                 className={`rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors ${
-                  isActive(n.href)
+                  n.cta
+                    ? "bg-secondary text-secondary-foreground hover:bg-secondary/90"
+                    : isActive(n.href)
                     ? "bg-secondary text-secondary-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
@@ -137,7 +140,9 @@ const SiteNav = () => {
                 <button
                   onClick={() => handleNav(n.href)}
                   className={`block w-full text-left rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                    isActive(n.href)
+                    n.cta
+                      ? "bg-secondary text-secondary-foreground hover:bg-secondary/90"
+                      : isActive(n.href)
                       ? "bg-secondary text-secondary-foreground"
                       : "text-muted-foreground hover:text-foreground"
                   }`}

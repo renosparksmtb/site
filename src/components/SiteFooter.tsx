@@ -23,6 +23,9 @@ const SiteFooter = () => (
       <a href="https://nevadanorthmtb.org/participation-fees/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">
         Scholarships &amp; Loaner Bikes
       </a>
+      <a href="https://www.zeffy.com/en-US/donation-form/helping-kids-find-their-trail" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline hover:text-primary/80">
+        Donate to the Team
+      </a>
     </div>
     <div className="mt-4 flex justify-center gap-4">
       <a href="https://www.facebook.com/renosparksmtb" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex h-9 w-9 items-center justify-center rounded-full bg-primary text-primary-foreground transition-opacity hover:opacity-80">
