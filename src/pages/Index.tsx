@@ -4,6 +4,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 import PracticeSection from "@/components/PracticeSection";
 import SeasonRaces from "@/components/SeasonRaces";
 import JoinSection from "@/components/JoinSection";
+import DonateSection from "@/components/DonateSection";
 import Volunteering from "@/components/Volunteering";
 import GritSection from "@/components/GritSection";
 import GearSection from "@/components/GearSection";
