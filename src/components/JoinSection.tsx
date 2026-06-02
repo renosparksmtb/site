@@ -86,7 +86,7 @@ const JoinSection = () => (
 
       <div>
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Registration &amp; Fees</h2>
-        <div class-placeholder className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2">
           <div className="rounded-xl border-2 border-primary bg-card p-6 shadow-sm">
             <p className="text-sm font-semibold text-primary">Season Registration</p>
             <p className="mt-1 text-3xl font-extrabold text-primary">$385</p>
