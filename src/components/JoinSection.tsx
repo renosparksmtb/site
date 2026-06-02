@@ -86,18 +86,13 @@ const JoinSection = () => (
 
       <div>
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Registration &amp; Fees</h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-xl border-2 border-secondary bg-card p-6 shadow-sm">
-            <p className="text-sm font-semibold text-secondary">Early Bird</p>
-            <p className="mt-1 text-3xl font-extrabold text-primary">$370</p>
-            <p className="mt-2 text-sm text-muted-foreground">Register early and save</p>
-          </div>
-          <div className="rounded-xl border border-border bg-card p-6 shadow-sm">
-            <p className="text-sm font-semibold text-primary">Standard</p>
+        <div class-placeholder className="grid gap-6 sm:grid-cols-2">
+          <div className="rounded-xl border-2 border-primary bg-card p-6 shadow-sm">
+            <p className="text-sm font-semibold text-primary">Season Registration</p>
             <p className="mt-1 text-3xl font-extrabold text-primary">$385</p>
-            <p className="mt-2 text-sm text-muted-foreground">June 1 – October 20</p>
+            <p className="mt-2 text-sm text-muted-foreground">Full season fee for the Reno‑Sparks Composite MTB Team</p>
           </div>
-          <div className="flex flex-col justify-center rounded-xl border border-border bg-card p-6 shadow-sm sm:col-span-2 lg:col-span-1">
+          <div className="flex flex-col justify-center rounded-xl border border-border bg-card p-6 shadow-sm">
             <p className="text-sm font-semibold text-primary">Included</p>
             <p className="mt-1 text-foreground/85">All Nevada North NICA race fees are <strong>included</strong> in registration.</p>
           </div>
