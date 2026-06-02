@@ -15,6 +15,7 @@ const NAV_ITEMS = [
   { label: "FAQ", href: "/#faq" },
   { label: "Store", href: "/#store" },
   { label: "Contact", href: "/#contact" },
+  { label: "Donate", href: "/#donate", cta: true },
 ];
 
 const SiteNav = () => {
