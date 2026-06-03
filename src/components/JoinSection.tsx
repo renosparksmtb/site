@@ -86,11 +86,16 @@ const JoinSection = () => (
 
       <div>
         <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Registration &amp; Fees</h2>
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-xl border-2 border-secondary bg-secondary/10 p-6 shadow-sm">
+            <p className="text-sm font-semibold text-primary">Early Bird Registration</p>
+            <p className="mt-1 text-3xl font-extrabold text-primary">$370</p>
+            <p className="mt-2 text-sm text-foreground/85">Register by <strong>June 9, 2026 (11:59 PM)</strong> to lock in the early rate.</p>
+          </div>
           <div className="rounded-xl border-2 border-primary bg-card p-6 shadow-sm">
             <p className="text-sm font-semibold text-primary">Season Registration</p>
             <p className="mt-1 text-3xl font-extrabold text-primary">$385</p>
-            <p className="mt-2 text-sm text-muted-foreground">Full season fee for the Reno‑Sparks Composite MTB Team</p>
+            <p className="mt-2 text-sm text-muted-foreground">Standard rate beginning June 10, 2026.</p>
           </div>
           <div className="flex flex-col justify-center rounded-xl border border-border bg-card p-6 shadow-sm">
             <p className="text-sm font-semibold text-primary">Included</p>
