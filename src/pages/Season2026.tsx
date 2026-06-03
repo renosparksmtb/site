@@ -23,7 +23,8 @@ import {
 
 const KEY_DATES = [
   { label: "Registration Open", value: "Now", icon: faCalendarCheck, highlight: true },
-  { label: "Season Registration", value: "$385", icon: faDollarSign, highlight: false },
+  { label: "Early Bird Deadline ($370)", value: "June 9, 2026", icon: faCalendarCheck, highlight: true },
+  { label: "Standard Rate Begins", value: "$385 (June 10)", icon: faDollarSign, highlight: false },
   { label: "Official Practices Begin", value: "July 1, 2026", icon: faCalendarDays, highlight: false },
 ];
 
@@ -47,7 +48,7 @@ const RACE_SCHEDULE = [
   { date: "Sept 19–20", name: "Capital City Crusher", location: "Carson City, NV" },
   { date: "Oct 3–4", name: "High Sierra Showdown", location: "Mammoth Lakes, CA" },
   { date: "Oct 17–18", name: "Tahoe Donner Dash", location: "Truckee, CA" },
-  { date: "Nov 14–15", name: "NICA Western Regionals", location: "St. George, UT" },
+  { date: "Nov 14–15", name: "NICA Western Regionals", location: "Vernal, UT" },
 ];
 
 const Season2026 = () => (
