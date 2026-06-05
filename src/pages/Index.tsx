@@ -26,13 +26,13 @@ const Index = () => (
       <ScrollReveal><PracticeSection /></ScrollReveal>
       <ScrollReveal><SeasonRaces /></ScrollReveal>
       <ScrollReveal><JoinSection /></ScrollReveal>
-      <ScrollReveal><DonateSection /></ScrollReveal>
       <ScrollReveal><Volunteering /></ScrollReveal>
       <ScrollReveal><GritSection /></ScrollReveal>
       <ScrollReveal><GearSection /></ScrollReveal>
       <ScrollReveal><FaqSection /></ScrollReveal>
       <ScrollReveal><TeamStore /></ScrollReveal>
       <ScrollReveal><ContactSection /></ScrollReveal>
+      <ScrollReveal><DonateSection /></ScrollReveal>
     </main>
     <SiteFooter />
     <BackToTop />
