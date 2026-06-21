@@ -134,7 +134,7 @@ const Season2026 = () => (
         <section className="section-padding bg-background">
           <div className="container-narrow">
             <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Key Dates</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {KEY_DATES.map((d) => (
                 <div
                   key={d.label}
