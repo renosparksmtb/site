@@ -23,8 +23,7 @@ import {
 
 const KEY_DATES = [
   { label: "Registration Open", value: "Now", icon: faCalendarCheck, highlight: true },
-  { label: "Early Bird Deadline ($370)", value: "June 9, 2026", icon: faCalendarCheck, highlight: true },
-  { label: "Standard Rate Begins", value: "$385 (June 10)", icon: faDollarSign, highlight: false },
+  { label: "Season Registration", value: "$385", icon: faDollarSign, highlight: false },
   { label: "Official Practices Begin", value: "July 1, 2026", icon: faCalendarDays, highlight: false },
 ];
 
@@ -135,7 +134,7 @@ const Season2026 = () => (
         <section className="section-padding bg-background">
           <div className="container-narrow">
             <h2 className="mb-8 text-3xl font-bold text-primary sm:text-4xl">Key Dates</h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {KEY_DATES.map((d) => (
                 <div
                   key={d.label}
