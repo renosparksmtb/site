@@ -23,8 +23,7 @@ import {
 
 const KEY_DATES = [
   { label: "Registration Open", value: "Now", icon: faCalendarCheck, highlight: true },
-  { label: "Early Bird Deadline ($370)", value: "June 9, 2026", icon: faCalendarCheck, highlight: true },
-  { label: "Standard Rate Begins", value: "$385 (June 10)", icon: faDollarSign, highlight: false },
+  { label: "Season Registration", value: "$385", icon: faDollarSign, highlight: false },
   { label: "Official Practices Begin", value: "July 1, 2026", icon: faCalendarDays, highlight: false },
 ];
 
